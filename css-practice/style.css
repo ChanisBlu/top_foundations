@@ -1,9 +1,11 @@
 #header {
-    background-color: black;
-    padding: 20px;
+  background-color: black;
+  padding: 20px;
 }
 
-.title .subtitle {
+
+.title,
+.subtitle {
     text-align: center;
     color: white;
 }
@@ -16,7 +18,7 @@
     font-size: 18px;
 }
 
-.card-title .important {
+.card-title.important {
     color: red;
     font-weight: bold;
 }
@@ -27,7 +29,7 @@
     text-align: center;
 }
 
-.hightlight {
-    background-color: green;
-    color: white;
+.highlight {
+  background-color: green;
+  color: white;
 }
