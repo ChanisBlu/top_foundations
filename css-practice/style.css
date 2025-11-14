@@ -1,0 +1,33 @@
+#header {
+    background-color: black;
+    padding: 20px;
+}
+
+.title .subtitle {
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.card-title .important {
+    color: red;
+    font-weight: bold;
+}
+
+.card .inner p {
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hightlight {
+    background-color: green;
+    color: white;
+}
