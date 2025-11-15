@@ -1,0 +1,77 @@
+p {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+
+/*Pasamos a especifidad por cantidad*/
+
+
+.a {
+  color: green;
+}
+
+.b {
+  color: orange;
+}
+
+p {
+  color: red;
+}
+
+.a.b {
+  color: pink;
+}
+
+/* ID vs Clase*/
+
+.a {
+  color: green;
+}
+
+.b {
+  color: orange;
+}
+
+.c {
+  color: purple;
+}
+
+p {
+  color: red;
+}
+
+#a {
+  color: pink;
+}
+
+#unique {
+  color: brown;
+}
+
+/*Last wins*/
+
+.text {
+  color: green;
+}
+
+.text {
+  color: red;
+}
+
+.text {
+  color: yellowgreen;
+}
+
+/*herencia vs regla directa*/
+
+.parent {
+  color: blueviolet;
+}
+
+p {
+  color: red;
+}
